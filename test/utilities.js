@@ -8,3 +8,4 @@ getAddress,
   defaultAbiCoder,
   toUtf8Bytes,
   solidityPack
+} from 'ethers/utils'
