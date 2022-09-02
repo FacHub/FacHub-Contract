@@ -4,3 +4,4 @@ import {
   BigNumber,
   bigNumberify,
 getAddress,
+  keccak256,
