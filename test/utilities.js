@@ -12,3 +12,4 @@ getAddress,
 const PERMIT_TYPEHASH = keccak256(
   toUtf8Bytes('Permit(address owner,address spender,uint256 value,uint256 nonce,uint256 deadline)')
 )
+export function expandTo18Decimals(n: number): BigNumber {
