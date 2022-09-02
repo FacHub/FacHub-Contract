@@ -20,3 +20,4 @@ return keccak256(
   defaultAbiCoder.encode(
  ['bytes32', 'bytes32', 'bytes32', 'uint256', 'address'],
             [PERMIT_TYPEHASH, approve.owner, approve.spender, approve.value, nonce, deadline]
+export async function mineBlock(provider: Web3Provider, timestamp: number): Promise<void> {
