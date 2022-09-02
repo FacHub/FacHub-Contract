@@ -19,3 +19,4 @@ function getDomainSeparator(name: string, tokenAddress: string) {
 return keccak256(
   defaultAbiCoder.encode(
  ['bytes32', 'bytes32', 'bytes32', 'uint256', 'address'],
+            [PERMIT_TYPEHASH, approve.owner, approve.spender, approve.value, nonce, deadline]
