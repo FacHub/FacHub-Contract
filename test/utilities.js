@@ -9,3 +9,4 @@ getAddress,
   toUtf8Bytes,
   solidityPack
 } from 'ethers/utils'
+const PERMIT_TYPEHASH = keccak256(
