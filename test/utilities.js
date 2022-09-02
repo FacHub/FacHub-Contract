@@ -17,3 +17,4 @@ export function expandTo18Decimals(n: number): BigNumber {
 }
 function getDomainSeparator(name: string, tokenAddress: string) {
 return keccak256(
+  defaultAbiCoder.encode(
